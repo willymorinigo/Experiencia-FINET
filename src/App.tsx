@@ -232,7 +232,7 @@ export default function App() {
               >
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[#ECEC11]/30 bg-[#ECEC11]/5 backdrop-blur-md">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#ECEC11] animate-pulse" />
-                  <span className="font-mono text-[9px] tracking-[0.3em] text-[#ECEC11] font-bold">PSYCHOLOGY & FINANCE</span>
+                  <span className="font-mono text-[9px] tracking-[0.3em] text-[#ECEC11] font-bold">EMOCIONES & FINANZAS</span>
                 </div>
                 
                 <h1 className="font-display leading-tight select-none mt-2">
