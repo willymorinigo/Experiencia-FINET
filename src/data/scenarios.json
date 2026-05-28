@@ -1,0 +1,910 @@
+[
+  {
+    "id": "adol_1",
+    "stage": "adolescence",
+    "situation": "Tus amigos planean una salida al boliche y después a desayunar. El gasto total ronda los $15.000, pero vos venís ahorrando para comprarte esos auriculares que tanto querés.",
+    "options": [
+      {
+        "id": "a1_o1",
+        "text": "Ir y gastar sin pensar: 'La vida es hoy y mis amigos lo valen'.",
+        "impact": {
+          "capital": -20,
+          "calm": 15
+        },
+        "feedback": "La conexión social es vital, pero gastar por impulso puede dejarte una sensación de vacío cuando veas tu alcancía. Disfrutaste, pero el auricular ahora está más lejos."
+      },
+      {
+        "id": "a1_o2",
+        "text": "Quedarte en casa ahorrando: No podés gastar ni un peso fuera del plan.",
+        "impact": {
+          "capital": 20,
+          "calm": -15
+        },
+        "feedback": "Tu disciplina es admirable, pero cuidado con el aislamiento. La paz financiera no debería ser una cárcel. Ahorrar es para vivir mejor, no para dejar de vivir."
+      },
+      {
+        "id": "a1_o3",
+        "text": "Ir al boliche pero proponer un desayuno gasolero en la plaza.",
+        "impact": {
+          "capital": 10,
+          "calm": 20
+        },
+        "feedback": "¡Esa es la técnica FINET! Encontraste el punto medio. Te divertiste con tus amigos sin traicionar tu meta personal. El equilibrio es el verdadero superpoder."
+      }
+    ]
+  },
+  {
+    "id": "adol_2",
+    "stage": "adolescence",
+    "situation": "Recibiste $50.000 de regalo de cumpleaños. Tus papás te sugieren abrir una cuenta en una billetera virtual para que tu dinero no pierda contra la Inflación.",
+    "options": [
+      {
+        "id": "a2_o1",
+        "text": "Gastarlo todo en ropa nueva: 'La plata quema en el bolsillo'.",
+        "impact": {
+          "capital": -30,
+          "calm": 10
+        },
+        "feedback": "Comprar algo nuevo da un empujón de dopamina, pero se pasa rápido. Si la plata 'te quema', es porque todavía no viste el poder de verla crecer."
+      },
+      {
+        "id": "a2_o2",
+        "text": "Ponerlo en un FCI de la billetera virtual para que rinda a diario.",
+        "impact": {
+          "capital": 25,
+          "calm": 20
+        },
+        "feedback": "¡Entendiste el juego! El dinero que se mueve genera calma. Empezar a usar un FCI a esta edad es plantar un bosque de tranquilidad para tu futuro."
+      },
+      {
+        "id": "a2_o3",
+        "text": "Dejar los billetes guardarlos debajo del colchón por seguridad.",
+        "impact": {
+          "capital": -10,
+          "calm": 5
+        },
+        "feedback": "Sentís seguridad al tocar los billetes, pero la Inflación se los está comiendo silenciosamente. El ahorro pasivo en Argentina es un riesgo invisible."
+      }
+    ]
+  },
+  {
+    "id": "adol_3",
+    "stage": "adolescence",
+    "situation": "Querés empezar a generar tus propios ingresos. Un tío te ofrece ayudarte con un emprendimiento de reventa de accesorios, pero necesitás invertir tus ahorros para el primer stock.",
+    "options": [
+      {
+        "id": "a3_o1",
+        "text": "Invertir todo el capital: 'El que no arriesga, no gana'.",
+        "impact": {
+          "capital": 15,
+          "calm": -10
+        },
+        "feedback": "Emprender es genial, pero jugártela al 100% genera un estrés que puede nublar tus decisiones. Siempre es mejor dejar un resto para emergencias."
+      },
+      {
+        "id": "a3_o2",
+        "text": "No hacerlo por miedo a perder la plata y quedarte sin nada.",
+        "impact": {
+          "capital": 0,
+          "calm": 0
+        },
+        "feedback": "El miedo es un guardián, pero a veces es demasiado estricto. Perdés la oportunidad de aprender sobre el ciclo del dinero y la autogestión."
+      },
+      {
+        "id": "a3_o3",
+        "text": "Empezar con una inversión mínima y reinvertir las ganancias paso a paso.",
+        "impact": {
+          "capital": 20,
+          "calm": 15
+        },
+        "feedback": "Crecimiento orgánico. Esta es la base de la abundancia sostenible. Aprendés el oficio sin poner en jaque tu paz mental."
+      }
+    ]
+  },
+  {
+    "id": "adol_4",
+    "stage": "adolescence",
+    "situation": "Tus amigos te presionan para que apuestes en una plataforma de juegos online. Dicen que es 'plata fácil'.",
+    "options": [
+      {
+        "id": "a4_o1",
+        "text": "Probar suerte: Total, es poca plata y el grupo se divierte.",
+        "impact": {
+          "capital": -15,
+          "calm": -20
+        },
+        "feedback": "Las apuestas no son inversión, son entretenimiento costoso. Perder dinero es feo, pero perder el control emocional es el verdadero riesgo."
+      },
+      {
+        "id": "a4_o2",
+        "text": "Explicarles por qué no te interesa: 'Prefiero que mi plata crezca de verdad'.",
+        "impact": {
+          "capital": 10,
+          "calm": 25
+        },
+        "feedback": "Poner límites sociales es madurez financiera. Mantener tu eje frente a la marea es el primer paso para una vida de calma."
+      },
+      {
+        "id": "a4_o3",
+        "text": "Hacer de cuenta que jugás pero no poner un peso.",
+        "impact": {
+          "capital": 0,
+          "calm": 5
+        },
+        "feedback": "Zafaste esta vez, pero estar en ambientes de riesgo puede tentarte mañana. Elegir bien tus entornos también es una inversión."
+      }
+    ]
+  },
+  {
+    "id": "adol_5",
+    "stage": "adolescence",
+    "situation": "Buscando componentes para tu PC, ves una 'oferta relámpago' en una web que no conocés. Es un 40% más barato que en otros sitios.",
+    "options": [
+      {
+        "id": "a5_o1",
+        "text": "Comprar ya: No hay que dejar pasar las oportunidades.",
+        "impact": { "capital": -40, "calm": -30 },
+        "feedback": "Era una estafa. Lo barato sale caro cuando descuidás la seguridad. Siempre verificá la reputación del vendedor antes de pagar."
+      },
+      {
+        "id": "a5_o2",
+        "text": "Investigar la web: Buscar opiniones y CUIT antes de decidir.",
+        "impact": { "capital": 0, "calm": 15 },
+        "feedback": "Tu cautela te salvó. Descubriste que era un sitio falso. Aprender a filtrar información es una de las mejores inversiones en la era digital."
+      },
+      {
+        "id": "a5_o3",
+        "text": "Comprar en la tienda oficial aunque sea más cara.",
+        "impact": { "capital": -10, "calm": 10 },
+        "feedback": "La garantía y la seguridad se pagan. A veces, pagar un poco más por tranquilidad es la decisión financieramente más inteligente."
+      }
+    ]
+  },
+  {
+    "id": "adol_6",
+    "stage": "adolescence",
+    "situation": "Tu influencer favorito promociona una 'Academia de Trading' que promete ser millonario en un mes.",
+    "options": [
+      {
+        "id": "a6_o1",
+        "text": "Anotarte con tus ahorros: 'Si él lo dice, debe funcionar'.",
+        "impact": { "capital": -30, "calm": -20 },
+        "feedback": "Cuidado con los espejitos de colores. Nadie regala plata ni enseña a hacerse rico en un mes. La educación financiera real lleva tiempo."
+      },
+      {
+        "id": "a6_o2",
+        "text": "Ignorar: 'Suena a esquema piramidal'.",
+        "impact": { "capital": 0, "calm": 10 },
+        "feedback": "Identificar estafas piramidales es vital. Si parece demasiado bueno para ser verdad, probablemente no lo sea."
+      },
+      {
+        "id": "a6_o3",
+        "text": "Buscar un libro sobre inversiones en vez de pagar el curso.",
+        "impact": { "capital": -5, "calm": 25 },
+        "feedback": "¡Excelente! La curiosidad es tu motor, pero alimentarla con fuentes serias es lo que realmente te va a dar libertad a futuro."
+      }
+    ]
+  },
+  {
+    "id": "adol_7",
+    "stage": "adolescence",
+    "situation": "Tus padres te ofrecen duplicar lo que ahorres este mes como premio por tu esfuerzo.",
+    "options": [
+      {
+        "id": "a7_o1",
+        "text": "No ahorrar nada y gastarlo en salidas: 'Total, es poca plata'.",
+        "impact": { "capital": -10, "calm": -5 },
+        "feedback": "Perdiste una oportunidad de 'apalancamiento'. A veces el entorno nos ayuda, pero hay que estar listos para aprovechar el envión."
+      },
+      {
+        "id": "a7_o2",
+        "text": "Ahorrar el 80% de tus ingresos para que ellos pongan más.",
+        "impact": { "capital": 40, "calm": 15 },
+        "feedback": "Entendiste el concepto de incentivo. Maximizar las oportunidades cuando las reglas están a tu favor es ser inteligente."
+      },
+      {
+        "id": "a7_o3",
+        "text": "Ahorrar solo un poco para no privarte de nada.",
+        "impact": { "capital": 10, "calm": 10 },
+        "feedback": "Buscaste el equilibrio, pero recordá que en las primeras etapas, el esfuerzo de ahorro inicial es el que más rinde a futuro."
+      }
+    ]
+  },
+  {
+    "id": "adol_8",
+    "stage": "adolescence",
+    "situation": "Tenés tus primeros ahorros en una billetera virtual. Un amigo te dice que los dejes ahí quietos 'por las dudas', pero leíste que podés activar el Money Market o comprar CEDEARs para protegerte de la devaluación.",
+    "options": [
+      {
+        "id": "a8_o1",
+        "text": "Dejar la plata quieta: 'Prefiero no tocar nada por seguridad'.",
+        "impact": { "capital": -20, "calm": 5 },
+        "feedback": "La 'seguridad' de tener la plata quieta es engañosa. Sin rendimientos, la inflación se come tu poder de compra. La mejor opción era activar el Money Market o comprar CEDEARs. Perdiste capital por no actuar."
+      },
+      {
+        "id": "a8_o2",
+        "text": "Comprar CEDEARs de empresas globales para dolarizarte.",
+        "impact": { "capital": 35, "calm": -10 },
+        "feedback": "¡Opción Ganadora! Elegiste protegerte dolarizando tus ahorros legalmente. Invertís en activos que mantienen su valor. La leve baja en calma es por la volatilidad normal de la bolsa, pero tu capital está a salvo."
+      },
+      {
+        "id": "a8_o3",
+        "text": "Activar el Money Market para que tu dinero rinda a diario.",
+        "impact": { "capital": 10, "calm": 25 },
+        "feedback": "Muy sensato. Es la forma más fácil de empezar. No rendirá tanto como los CEDEARs, pero ganás mucha calma al saber que tu dinero al menos no está perdiendo todo su valor y lo tenés siempre disponible."
+      }
+    ]
+  },
+  {
+    "id": "youth_1",
+    "stage": "youth",
+    "situation": "Cobraste tu primer sueldo y tenés un excedente que vas a necesitar en solo 15 días. ¿Qué instrumento usás para que no se desvalorice?",
+    "options": [
+      {
+        "id": "y1_o1",
+        "text": "Colocar una Caución a 14 días.",
+        "impact": { "capital": 15, "calm": 35 },
+        "feedback": "¡Impecable! Esta es la decisión más profesional para plazos cortos. Asegurás un rendimiento fijo con garantía bursátil (+150 cap). Es la mejor opción porque priorizás disponibilidad y seguridad absoluta (+350 calma)."
+      },
+      {
+        "id": "y1_o2",
+        "text": "Comprar Acciones: 'Seguro en 15 días suben'.",
+        "impact": { "capital": -10, "calm": -40 },
+        "feedback": "Error de concepto. Las Acciones son para largo plazo (años). Si bajan justo cuando necesitás la plata, realizás una pérdida. La Caución era la ganadora aquí por su previsibilidad."
+      },
+      {
+        "id": "y1_o3",
+        "text": "Dejarlo en cuenta remunerada de una billetera virtual.",
+        "impact": { "capital": 8, "calm": 20 },
+        "feedback": "Es una opción cómoda y válida, pero el rendimiento suele ser menor al de una Caución profesional. Ganás un poco de capital (+80) y mantenés tu eje, pero hay instrumentos más eficientes."
+      }
+    ]
+  },
+  {
+    "id": "youth_2",
+    "stage": "youth",
+    "situation": "Te sobran $40.000 este mes. Un amigo te dice que los CEDEARs son una buena forma de ahorrar a largo plazo protegiéndote del riesgo local.",
+    "options": [
+      {
+        "id": "y2_o1",
+        "text": "Invertir en CEDEARs de empresas tecnológicas sólidas.",
+        "impact": {
+          "capital": 20,
+          "calm": 15
+        },
+        "feedback": "Estás diversificando y pensando en grande. Los CEDEARs te permiten ser socio de monstruos globales. Requiere paciencia, pero tu 'yo' del futuro te lo va a agradecer."
+      },
+      {
+        "id": "y2_o2",
+        "text": "Ponerlo en un Plazo Fijo: Es lo único que entiendo y me da seguridad.",
+        "impact": {
+          "capital": 10,
+          "calm": 10
+        },
+        "feedback": "El Plazo Fijo es un buen primer paso, pero a veces no alcanza para ganarle a la inflación real. Estás ahorrando, y eso ya es un triunfo."
+      },
+      {
+        "id": "y2_o3",
+        "text": "Dármelo en gastos hormiga porque $40.000 'no es nada'.",
+        "impact": {
+          "capital": -15,
+          "calm": -5
+        },
+        "feedback": "Ese es el mito destructivo. Ninguna cifra es pequeña cuando se trata de Interés Compuesto. El desprecio por lo pequeño es el enemigo de lo grande."
+      }
+    ]
+  },
+  {
+    "id": "youth_3",
+    "stage": "youth",
+    "situation": "Buscás una inversión que te dé una renta fija en dólares para tu ahorro. ¿Qué elegís entre el abanico disponible?",
+    "options": [
+      {
+        "id": "y3_o1",
+        "text": "Comprar Dólar MEP y dejarlo en la caja de ahorro.",
+        "impact": { "capital": 5, "calm": 30 },
+        "feedback": "Es seguro, pero el dólar también tiene inflación propia (pierde valor en el tiempo). La mejor opción era la C (ONs), para que esos dólares generen intereses. Ganás calma por la dolarización (+300)."
+      },
+      {
+        "id": "y3_o2",
+        "text": "Ahorrar en pesos bajo el colchón.",
+        "impact": { "capital": -50, "calm": -30 },
+        "feedback": "La peor decisión. El ahorro pasivo en moneda débil te saca 500 puntos de capital. Es fundamental aprender a usar instrumentos como el MEP o las ONs para sobrevivir financieramente."
+      },
+      {
+        "id": "y3_o3",
+        "text": "Invertir en Obligaciones Negociables (ONs) de empresas exportadoras.",
+        "impact": { "capital": 40, "calm": 25 },
+        "feedback": "¡Golazo! Esta es la mejor opción (+400 cap). Prestás tus dólares a empresas sólidas a cambio de un interés anual. Recibís renta fija y mantenés tu capital dolarizado. Es la base de un flujo de fondos sano."
+      }
+    ]
+  },
+  {
+    "id": "youth_4",
+    "stage": "youth",
+    "situation": "Te ofrecen un trabajo con un sueldo un 20% más alto, pero implica 3 horas más de viaje por día y menos tiempo libre.",
+    "options": [
+      {
+        "id": "y4_o1",
+        "text": "Aceptar: 'La plata ahora, el descanso después'.",
+        "impact": {
+          "capital": 30,
+          "calm": -25
+        },
+        "feedback": "El capital crece, pero tu reserva de calma se agota rápido. El agotamiento físico termina saliendo caro en salud y bienestar."
+      },
+      {
+        "id": "y4_o2",
+        "text": "Rechazar: Valorás más tu tiempo y salud mental actual.",
+        "impact": {
+          "capital": -10,
+          "calm": 35
+        },
+        "feedback": "Entendiste que el tiempo es el activo más valioso. Si no podés disfrutar del dinero que ganás, el juego pierde sentido."
+      },
+      {
+        "id": "y4_o3",
+        "text": "Negociar trabajar 2 días desde casa para compensar el viaje.",
+        "impact": {
+          "capital": 20,
+          "calm": 20
+        },
+        "feedback": "¡Esa es la actitud! Buscaste una solución creativa que cuida tanto tu bolsillo como tu energía diaria. Negociar es un arte financiero."
+      }
+    ]
+  },
+  {
+    "id": "youth_5",
+    "stage": "youth",
+    "situation": "Estás ahorrando para un auto usado y te ofrecen un préstamo personal 'pre-aprobado' para llegar más rápido.",
+    "options": [
+      {
+        "id": "y5_o1",
+        "text": "Tomar el préstamo: 'Quiero el auto ya, la cuota es fija'.",
+        "impact": { "capital": -40, "calm": -20 },
+        "feedback": "El costo financiero total suele ser mucho más alto de lo que parece. Terminás pagando dos autos y debiéndole a un banco, lo que quita mucha calma."
+      },
+      {
+        "id": "y5_o2",
+        "text": "Seguir ahorrando un poco más y comprarlo de contado.",
+        "impact": { "capital": 20, "calm": 30 },
+        "feedback": "La paciencia es una virtud financiera. Comprar sin deuda te permite disfrutar del auto sin el peso de la cuota cada mes."
+      },
+      {
+        "id": "y5_o3",
+        "text": "Buscar un socio o familiar para comprarlo a medias.",
+        "impact": { "capital": 10, "calm": -15 },
+        "feedback": "Es una forma de llegar rápido, pero las sociedades de este tipo suelen traer roces y problemas de calma a futuro."
+      }
+    ]
+  },
+  {
+    "id": "youth_6",
+    "stage": "youth",
+    "situation": "Ves un departamento que te encanta pero la reserva es cara y tenés que decidir en 24 horas.",
+    "options": [
+      {
+        "id": "y6_o1",
+        "text": "Pagar la reserva sin pensar: 'Es el lugar de mis sueños'.",
+        "impact": { "capital": -50, "calm": -10 },
+        "feedback": "Decidir bajo presión es riesgoso. Si después aparecen problemas en el contrato, podés perder la seña y mucha paz."
+      },
+      {
+        "id": "y6_o2",
+        "text": "Pedir ver los papeles y consultar con un abogado antes de pagar.",
+        "impact": { "capital": -5, "calm": 25 },
+        "feedback": "Ser meticuloso con los contratos es la mejor armadura. Dormir sabiendo que tu inversión es segura no tiene precio."
+      },
+      {
+        "id": "y6_o3",
+        "text": "Dejarlo pasar: 'Si es para mí, va a aparecer otro'.",
+        "impact": { "capital": 0, "calm": 10 },
+        "feedback": "A veces la mejor decisión es no hacer nada. El mercado inmobiliario es grande y la desesperación es mala consejera."
+      }
+    ]
+  },
+  {
+    "id": "youth_7",
+    "stage": "youth",
+    "situation": "Te mudás solo por primera vez y tenés que comprar los electrodomésticos.",
+    "options": [
+      {
+        "id": "y7_o1",
+        "text": "Comprar todo nuevo y de alta gama en 18 cuotas.",
+        "impact": { "capital": -30, "calm": -25 },
+        "feedback": "Tu casa parece de revista, pero tu presupuesto está al límite. El exceso de cuotas es el principal enemigo del ahorro joven."
+      },
+      {
+        "id": "y7_o2",
+        "text": "Comprar lo esencial usado y lo importante nuevo.",
+        "impact": { "capital": 15, "calm": 20 },
+        "feedback": "Priorizar es clave. Tener lo que necesitás sin hipotecar tu futuro es equilibrio financiero puro."
+      },
+      {
+        "id": "y7_o3",
+        "text": "Pedir prestado a familiares lo que tengan de sobra.",
+        "impact": { "capital": 25, "calm": 5 },
+        "feedback": "La economía circular y el apoyo familiar son grandes aliados al despegar. Aprovechá ese ahorro para empezar tu fondo de reserva."
+      }
+    ]
+  },
+  {
+    "id": "youth_8",
+    "stage": "youth",
+    "situation": "Un amigo te invita a invertir en una 'Startup' tecnologica que está arrancando.",
+    "options": [
+      {
+        "id": "y8_o1",
+        "text": "Invertir una parte que estés dispuesto a perder.",
+        "impact": { "capital": 20, "calm": -5 },
+        "feedback": "El riesgo alto puede dar recompensas altas, pero solo si es dinero que no necesitás para tu día a día."
+      },
+      {
+        "id": "y8_o2",
+        "text": "Poner todos tus ahorros: 'Es el próximo Facebook'.",
+        "impact": { "capital": -60, "calm": -40 },
+        "feedback": "Concentrar el riesgo es la receta para el desastre. La diversificación es lo que te mantiene en el juego a largo plazo."
+      },
+      {
+        "id": "y8_o3",
+        "text": "Rechazar: 'Prefiero inversiones más tradicionales por ahora'.",
+        "impact": { "capital": 0, "calm": 20 },
+        "feedback": "Conocer tu perfil de riesgo es fundamental. Si no te deja dormir, no es una buena inversión para vos."
+      }
+    ]
+  },
+  {
+    "id": "adult_1",
+    "stage": "adulthood",
+    "situation": "Se rompió el termotanque y el arreglo cuesta $250.000. No tenías ese gasto previsto y tu mes viene ajustado.",
+    "options": [
+      {
+        "id": "ad1_o1",
+        "text": "Tarjetearlo en cuotas con interés: 'Mañana vemos cómo pagamos'.",
+        "impact": {
+          "capital": -15,
+          "calm": -10
+        },
+        "feedback": "La urgencia nos hace elegir opciones caras. Trata de que este 'mañana vemos' no se convierta en una bola de nieve de estrés familiar."
+      },
+      {
+        "id": "ad1_o2",
+        "text": "Usar el fondo de emergencia que venías armando para estos 'imprevistos'.",
+        "impact": {
+          "capital": 10,
+          "calm": 25
+        },
+        "feedback": "¡Para esto sirve! Aunque de pena usarlo, te ahorró el estrés de una deuda. Estás usando tu dinero como un escudo protector. Bien ahí."
+      },
+      {
+        "id": "ad1_o3",
+        "text": "Comprar dólares Blue con lo que te quedaba y pedir prestado para el arreglo.",
+        "impact": {
+          "capital": 0,
+          "calm": -20
+        },
+        "feedback": "Comprar dólares mientras debés plata a alguien cercano es una receta para el conflicto. La calma no es solo tener billetes, es dormir sin deudas morales."
+      }
+    ]
+  },
+  {
+    "id": "adult_2",
+    "stage": "adulthood",
+    "situation": "Tenés unos ahorros y pensás en tu jubilación. Un asesor te habla del Interés Compuesto invirtiendo en un índice global pero a 15 años.",
+    "options": [
+      {
+        "id": "ad2_o1",
+        "text": "Empezar el plan con constancia: 'El tiempo es mi aliado'.",
+        "impact": {
+          "capital": 35,
+          "calm": 20
+        },
+        "feedback": "El Interés Compuesto es la octava maravilla del mundo. Al darle tiempo, hacés que el dinero trabaje por vos. Es la máxima expresión de la calma FINET."
+      },
+      {
+        "id": "ad2_o2",
+        "text": "No hacerlo porque 15 años es mucho tiempo y 'en este país no se sabe'.",
+        "impact": {
+          "capital": -10,
+          "calm": -5
+        },
+        "feedback": "La incertidumbre paraliza, pero la parálisis es también una decisión con costos. No planificar por miedo al futuro suele asegurar un futuro difícil."
+      },
+      {
+        "id": "ad2_o3",
+        "text": "Meterlo todo en una Criptomoneda que te recomendó un primo.",
+        "impact": {
+          "capital": -20,
+          "calm": -30
+        },
+        "feedback": "Eso no es invertir, es apostar. El riesgo extremo destruye la paz mental. La adrenalina no es buena compañera de tus ahorros de vida."
+      }
+    ]
+  },
+  {
+    "id": "adult_3",
+    "stage": "adulthood",
+    "situation": "Tus hijos están creciendo y querés asegurar su educación superior. Te ofrecen un seguro de vida con ahorro.",
+    "options": [
+      {
+        "id": "ad3_o1",
+        "text": "Contratar el seguro: 'La seguridad de mi familia es prioridad'.",
+        "impact": {
+          "capital": 10,
+          "calm": 30
+        },
+        "feedback": "La previsión es un acto de amor. Delegás el riesgo y construís un capital por goteo. Esa paz al apoyar la cabeza en la almohada es invaluable."
+      },
+      {
+        "id": "ad3_o2",
+        "text": "Preferir manejar vos el dinero en inversiones de renta variable.",
+        "impact": {
+          "capital": 20,
+          "calm": 5
+        },
+        "feedback": "Tenés el control, pero también toda la responsabilidad. La volatilidad del mercado puede ser un factor de estrés si no tenés el temple necesario."
+      },
+      {
+        "id": "ad3_o3",
+        "text": "No hacer nada porque 'el estado debería proveer la educación'.",
+        "impact": {
+          "capital": -5,
+          "calm": -10
+        },
+        "feedback": "Depender de terceros para el futuro de tus hijos es una apuesta arriesgada. La independencia financiera se construye con proactividad, no con expectativas."
+      }
+    ]
+  },
+  {
+    "id": "adult_4",
+    "stage": "adulthood",
+    "situation": "Un nuevo impuesto afecta tus inversiones. Tenés que decidir si liquidarlas o mantener la estrategia a largo plazo.",
+    "options": [
+      {
+        "id": "ad4_o1",
+        "text": "Vender todo asustado: 'Mejor pájaro en mano'.",
+        "impact": {
+          "capital": -15,
+          "calm": -30
+        },
+        "feedback": "La respuesta emocional a los cambios normativos suele ser la más cara. Operar desde el miedo destruye el rendimiento y la paz."
+      },
+      {
+        "id": "ad4_o2",
+        "text": "Revisar el plan con un profesional y ajustar sin desesperar.",
+        "impact": {
+          "capital": 5,
+          "calm": 30
+        },
+        "feedback": "Tener un sistema de decisión evita los arrebatos. El ruido del mercado es constante; el profesionalismo es tu ancla."
+      },
+      {
+        "id": "ad4_o3",
+        "text": "No mirar la cuenta por seis meses: 'Ojos que no ven, corazón que no siente'.",
+        "impact": {
+          "capital": 0,
+          "calm": 10
+        },
+        "feedback": "Es una forma de autoprotección, pero ignorar la realidad no la cambia. A veces hace falta un poco de atención para no perder oportunidades."
+      }
+    ]
+  },
+  {
+    "id": "adult_5",
+    "stage": "adulthood",
+    "situation": "Querés planificar un viaje familiar grande para el año que viene. ¿Cómo financiás los pasajes?",
+    "options": [
+      {
+        "id": "ad5_o1",
+        "text": "Comprar en 12 cuotas fijas con la tarjeta.",
+        "impact": { "capital": -30, "calm": -10 },
+        "feedback": "Es una forma de congelar el precio, pero asegurate de que la cuota no asfixie tu capacidad de ahorro mensual para otros imprevistos."
+      },
+      {
+        "id": "ad5_o2",
+        "text": "Ahorrar en dólares durante 10 meses y comprar los pasajes de contado.",
+        "impact": { "capital": 10, "calm": 25 },
+        "feedback": "Viajar sabiendo que ya está todo pago te da una paz mental invaluable. El disfrute empieza desde que empezás a ahorrar."
+      },
+      {
+        "id": "ad5_o3",
+        "text": "Usar puntos de fidelidad y millas acumuladas de gastos previos.",
+        "impact": { "capital": 40, "calm": 15 },
+        "feedback": "¡Ingenio financiero! Aprovechar los beneficios de tus gastos cotidianos para tus deseos es el siguiente nivel de la inteligencia económica."
+      }
+    ]
+  },
+  {
+    "id": "adult_6",
+    "stage": "adulthood",
+    "situation": "Tus padres necesitan ayuda económica para su jubilación. ¿Cómo lo encarás?",
+    "options": [
+      {
+        "id": "ad6_o1",
+        "text": "Pasarles una mensualidad fija sin planes de ahorro propios.",
+        "impact": { "capital": -25, "calm": -15 },
+        "feedback": "Es noble, pero si descuidás tu propio futuro, podés terminar en la misma situación que ellos. El equilibrio es fundamental."
+      },
+      {
+        "id": "ad6_o2",
+        "text": "Ayudarlos a organizar sus gastos y optimizar sus ingresos actuales.",
+        "impact": { "capital": -5, "calm": 30 },
+        "feedback": "Enseñar a pescar es mejor que dar el pescado. Aliviar su carga mental con organización es una ayuda que no tiene precio."
+      },
+      {
+        "id": "ad6_o3",
+        "text": "Hacer un fondo común familiar entre hermanos para repartir la carga.",
+        "impact": { "capital": 10, "calm": 20 },
+        "feedback": "La colaboración familiar diluye el peso económico y fortalece los vínculos. La unión hace la fuerza financiera."
+      }
+    ]
+  },
+  {
+    "id": "adult_7",
+    "stage": "adulthood",
+    "situation": "Te ofrecen un retiro voluntario en tu empresa con una indemnización generosa.",
+    "options": [
+      {
+        "id": "ad7_o1",
+        "text": "Aceptar y poner todo en un negocio propio sin experiencia.",
+        "impact": { "capital": -40, "calm": -30 },
+        "feedback": "Emprender desde la desesperación o sin saber suele ser un sumidero de dinero. El capital se va rápido cuando no hay sistema."
+      },
+      {
+        "id": "ad7_o2",
+        "text": "Aceptar, invertir el capital en opciones seguras y buscar algo nuevo con calma.",
+        "impact": { "capital": 20, "calm": 35 },
+        "feedback": "Usaste la indemnización como un puente, no como un casino. Tener ese respaldo te da el poder de elegir tu próximo paso."
+      },
+      {
+        "id": "ad7_o3",
+        "text": "Rechazar y quedarte por miedo a lo desconocido.",
+        "impact": { "capital": 0, "calm": -10 },
+        "feedback": "La parálisis por análisis también tiene un costo. Si el ciclo en la empresa terminó, quedarte por miedo te drena la energía."
+      }
+    ]
+  },
+  {
+    "id": "adult_8",
+    "stage": "adulthood",
+    "situation": "Ves que tu seguro de vida es caro y no estás seguro de si lo necesitás.",
+    "options": [
+      {
+        "id": "ad8_o1",
+        "text": "Darlo de baja hoy mismo para ahorrar la cuota.",
+        "impact": { "capital": 10, "calm": -20 },
+        "feedback": "Ahorrás hoy pero dejás a tu familia desprotegida ante lo peor. Evaluar el riesgo es tan importante como evaluar el rendimiento."
+      },
+      {
+        "id": "ad8_o2",
+        "text": "Comparar con otros seguros y ajustar la cobertura a tu realidad actual.",
+        "impact": { "capital": 5, "calm": 25 },
+        "feedback": "Ser un consumidor activo te ahorra dinero sin sacrificar seguridad. La optimización es el camino del medio."
+      },
+      {
+        "id": "ad8_o3",
+        "text": "Seguir pagando sin mirar: 'Mejor que esté'.",
+        "impact": { "capital": -5, "calm": 10 },
+        "feedback": "La inercia financiera es cómoda pero cara. Revisar tus gastos fijos una vez al año es un hábito saludable."
+      }
+    ]
+  },
+  {
+    "id": "full_1",
+    "stage": "fullness",
+    "situation": "Tus nietos te piden ayuda para un viaje. Tenés tus ahorros en Dólar MEP para tu tranquilidad, pero querés verlos felices.",
+    "options": [
+      {
+        "id": "f1_o1",
+        "text": "Darles todo lo que piden: 'Para qué quiero la plata si no es para ellos'.",
+        "impact": {
+          "capital": -30,
+          "calm": 5
+        },
+        "feedback": "Tu corazón es enorme, pero tu seguridad no es negociable. Si te quedás sin respaldo, podrías terminar siendo una carga para ellos mismos en el futuro."
+      },
+      {
+        "id": "f1_o2",
+        "text": "Negarte rotundamente por miedo a quedarte sin nada.",
+        "impact": {
+          "capital": 20,
+          "calm": -20
+        },
+        "feedback": "La rigidez por miedo genera angustia. El dinero es una herramienta para conectar. Quizás podés ser generoso sin desprotegerte."
+      },
+      {
+        "id": "f1_o3",
+        "text": "Regalarles una parte y explicarles cómo protegés tus ahorros con Dólar MEP.",
+        "impact": {
+          "capital": 5,
+          "calm": 30
+        },
+        "feedback": "¡Sabiduría pura! Les das un empujón y, lo más importante, les transmitís el valor del orden financiero. Eso vale mucho más que cualquier billete."
+      }
+    ]
+  },
+  {
+    "id": "full_2",
+    "stage": "fullness",
+    "situation": "Tenés una propiedad grande que ya te cuesta mantener. Te ofrecen mudarte a algo más chico y bien ubicado, quedándote con una diferencia a favor.",
+    "options": [
+      {
+        "id": "f2_o1",
+        "text": "Hacer el cambio: 'Menos limpieza, más viajes'.",
+        "impact": {
+          "capital": 40,
+          "calm": 25
+        },
+        "feedback": "Soltar lo material para ganar calidad de vida es el nivel experto de la plenitud. El capital extra te da un aire nuevo para disfrutar."
+      },
+      {
+        "id": "f2_o2",
+        "text": "Quedarte por apego emocional aunque la casa se venga abajo.",
+        "impact": {
+          "capital": -20,
+          "calm": -15
+        },
+        "feedback": "El costo de mantenimiento de los recuerdos a veces es demasiado alto. El espacio físico puede volverse una carga si no se adapta a tu realidad actual."
+      },
+      {
+        "id": "f2_o3",
+        "text": "Alquilar una parte de la casa para cubrir los gastos.",
+        "impact": {
+          "capital": 10,
+          "calm": -5
+        },
+        "feedback": "Es una salida creativa, pero meter gente desconocida en tu casa puede afectar tu privacidad y tu descanso. El equilibrio es clave."
+      }
+    ]
+  },
+  {
+    "id": "full_3",
+    "stage": "fullness",
+    "situation": "Tus rentas pasivas superan tus gastos mensuales. ¿Qué hacés con el excedente?",
+    "options": [
+      {
+        "id": "f3_o1",
+        "text": "Reinvertir todo: 'Quiero ver hasta dónde llega'.",
+        "impact": { "capital": 50, "calm": 10 },
+        "feedback": "El interés compuesto en esta etapa es una potencia. Estás construyendo un legado generacional masivo."
+      },
+      {
+        "id": "f3_o2",
+        "text": "Donarlo a una causa que te apasione.",
+        "impact": { "capital": -10, "calm": 50 },
+        "feedback": "Llegaste a la verdadera libertad: la de trascender. Dar es el lujo máximo que permite la libertad financiera."
+      },
+      {
+        "id": "f3_o3",
+        "text": "Subir tu nivel de vida con lujos que antes evitabas.",
+        "impact": { "capital": -20, "calm": 30 },
+        "feedback": "Te lo ganaste. Si el dinero no sirve para darte una vida mejor, solo son números en una pantalla."
+      }
+    ]
+  },
+  {
+    "id": "full_4",
+    "stage": "fullness",
+    "situation": "Un banco te ofrece un producto financiero 'Premium' exclusivo con comisiones ocultas.",
+    "options": [
+      {
+        "id": "f4_o1",
+        "text": "Aceptar por el estatus: 'Me tratan como VIP'.",
+        "impact": { "capital": -15, "calm": 10 },
+        "feedback": "El ego es caro. Muchas veces los productos exclusivos son solo formas de cobrarte más por lo mismo."
+      },
+      {
+        "id": "f4_o2",
+        "text": "Seguir con tu estrategia simple y de bajo costo.",
+        "impact": { "capital": 20, "calm": 35 },
+        "feedback": "La sofisticación real es la simplicidad. Mantener tus costos bajos cuando tenés mucho es la marca de un maestro."
+      },
+      {
+        "id": "f4_o3",
+        "text": "Negociar mejores condiciones usando tu volumen de capital.",
+        "impact": { "capital": 30, "calm": 15 },
+        "feedback": "Hiciste valer tu peso. En finanzas, el que tiene el capital pone las condiciones. ¡Bien jugado!"
+      }
+    ]
+  },
+  {
+    "id": "full_5",
+    "stage": "fullness",
+    "situation": "Querés enseñarle finanzas a tus nietos. ¿Cuál es el primer consejo?",
+    "options": [
+      {
+        "id": "f5_o1",
+        "text": "Darles plata para que la gasten en lo que quieran.",
+        "impact": { "capital": -10, "calm": 10 },
+        "feedback": "El placer inmediato no enseña el valor del tiempo. Regalar pescado no es lo mismo que enseñar a pescar."
+      },
+      {
+        "id": "f5_o2",
+        "text": "Regalarles un CEDEAR y explicarles cómo crecen las empresas.",
+        "impact": { "capital": 5, "calm": 40 },
+        "feedback": "Sembraste una semilla de curiosidad y valor. La educación es el legado más resistente a cualquier crisis."
+      },
+      {
+        "id": "f5_o3",
+        "text": "Contarles tus errores financieros del pasado.",
+        "impact": { "capital": 0, "calm": 35 },
+        "feedback": "La vulnerabilidad y la experiencia son grandes maestras. Tus errores son ahora el atajo de ellos."
+      }
+    ]
+  },
+  {
+    "id": "full_6",
+    "stage": "fullness",
+    "situation": "Aparece un nuevo 'Cripto-Activo' que todo el mundo está comprando por impulso.",
+    "options": [
+      {
+        "id": "f6_o1",
+        "text": "Ignorar por completo: 'Ya gané mi juego'.",
+        "impact": { "capital": 0, "calm": 40 },
+        "feedback": "Tener la templanza de no perseguir cada brillo es lo que te mantiene libre. La paz es tu mayor dividendo."
+      },
+      {
+        "id": "f6_o2",
+        "text": "Invertir una mínima parte por curiosidad tecnológica.",
+        "impact": { "capital": -5, "calm": 20 },
+        "feedback": "Mantenerte actualizado es bueno, pero sin poner en riesgo tu castillo. La curiosidad controlada es sana."
+      },
+      {
+        "id": "f6_o3",
+        "text": "Vender tus inversiones seguras para entrar en la moda.",
+        "impact": { "capital": -50, "calm": -60 },
+        "feedback": "Poner en riesgo tu libertad financiera por una apuesta tardía es el error más grave de esta etapa."
+      }
+    ]
+  },
+  {
+    "id": "full_7",
+    "stage": "fullness",
+    "situation": "Te das cuenta de que no necesitás seguir trabajando, pero disfrutás mucho lo que hacés.",
+    "options": [
+      {
+        "id": "f7_o1",
+        "text": "Seguir trabajando pero solo en lo que te apasione.",
+        "impact": { "capital": 10, "calm": 45 },
+        "feedback": "Trabajar por elección y no por necesidad es la definición de éxito. Tu energía ahora es pura creatividad."
+      },
+      {
+        "id": "f7_o2",
+        "text": "Retirarte al 100% y dedicarte al ocio total.",
+        "impact": { "capital": -5, "calm": 30 },
+        "feedback": "Es válido, pero buscá un propósito. El ocio total puede volverse una carga si no hay un 'para qué'."
+      },
+      {
+        "id": "f7_o3",
+        "text": "Poner una consultora para ayudar a otros gratis.",
+        "impact": { "capital": 0, "calm": 40 },
+        "feedback": "Devolver a la sociedad lo aprendido te llena de energía. El capital social también es riqueza."
+      }
+    ]
+  },
+  {
+    "id": "full_8",
+    "stage": "fullness",
+    "situation": "Hay una crisis económica global y todos los mercados caen un 30%.",
+    "options": [
+      {
+        "id": "f8_o1",
+        "text": "Vender todo para 'salvar lo que queda'.",
+        "impact": { "capital": -40, "calm": -50 },
+        "feedback": "Hacer realidad las pérdidas en el peor momento es un error. Los mercados son cíclicos; tu paciencia es tu escudo."
+      },
+      {
+        "id": "f8_o2",
+        "text": "No hacer nada y esperar a que pase la tormenta.",
+        "impact": { "capital": 0, "calm": 30 },
+        "feedback": "Tu portafolio está diseñado para esto. La libertad financiera se trata de aguantar los inviernos."
+      },
+      {
+        "id": "f8_o3",
+        "text": "Comprar más activos aprovechando los precios de oferta.",
+        "impact": { "capital": 50, "calm": 15 },
+        "feedback": "Tener liquidez en las crisis es la marca de los exitosos. Compraste riqueza con descuento."
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "FINET - Educación Financiera Emocional",
+  "description": "Una herramienta interactiva de educación financiera basada en la calma, la conciencia emocional y el acompañamiento humano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["FINET Methodology", "Emotional Financial Tracking", "Life Stage Scenarios"]
+}
